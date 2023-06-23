@@ -1,0 +1,27 @@
+.parent {
+  width: 100vw;
+  height: 100vh;
+  /* background: url("../../images/drew-hays-agGIKYs4mYs-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ecf0f3;
+}
+
+.parent .content {
+  width: 90%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
+
+  /* column-gap: 3%; */
+  /* padding: 10px; */
+}

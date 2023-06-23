@@ -1,0 +1,42 @@
+.parent {
+  width: 100vw;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ecf0f3;
+}
+.parent .heading {
+  height: 30%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.parent .heading .tagline {
+  text-align: center;
+  color: #ed0938;
+}
+.parent .heading .headline {
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(50, 50, 50);
+  text-align: center;
+}
+
+.parent .content {
+  width: 90%;
+  height: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
+
+  /* column-gap: 3%; */
+  /* padding: 10px; */
+}

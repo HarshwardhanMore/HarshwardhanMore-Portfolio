@@ -1,0 +1,60 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  background: #ecf0f3;
+
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.132);
+  border-radius: 15px;
+  padding-top: 0px;
+}
+.parent:hover {
+  background: #ed0938;
+  color: #ecf0f3;
+  transition: all;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  /* transform: translate(0, -7px); */
+}
+
+.parent > .content {
+  width: 75%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.parent > .content > .firstImg {
+  height: 20%;
+  width: max-content;
+  display: block;
+}
+.parent > .content > .secondImg {
+  height: 20%;
+  width: max-content;
+  display: none;
+}
+.parent:hover > .content > .firstImg {
+  display: none;
+}
+.parent:hover > .content > .secondImg {
+  display: block;
+}
+.parent > .content > .heading {
+  font-size: 23px;
+  font-weight: bold;
+}
+.parent > .content > .desc {
+}
+.parent > .content > .explore {
+  display: none;
+  height: 20%;
+}
+.parent > .content > .explore > img {
+  height: 100%;
+}
+.parent:hover > .content > .explore {
+  display: block;
+}

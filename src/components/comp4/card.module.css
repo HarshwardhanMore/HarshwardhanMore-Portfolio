@@ -1,0 +1,104 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  background: #ecf0f3;
+
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.132);
+  border-radius: 15px;
+  padding-top: 0px;
+  cursor: pointer;
+}
+.parent > .content {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.parent > .content > .img {
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+.parent > .content > .img > img {
+  width: 100%;
+}
+.parent:hover > .content > .img > img {
+  transform: scale(1.1);
+  transition: all;
+  transition-duration: 0.5s;
+}
+.parent > .content > .info {
+  width: 100%;
+}
+.parent > .content > .info > .heading {
+  width: 100%;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(50, 50, 50);
+}
+.parent > .content > .info > .desc {
+  width: 100%;
+  font-size: 14px;
+  color: #ed0938;
+  text-align: justify;
+}
+.parent > .content > .links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.parent > .content > .links a {
+  width: 12%;
+  height: 30px;
+}
+.parent > .content > .links a:hover {
+  transition: all;
+  transition-duration: 0.5s;
+  /* transform: rotate(359deg); */
+  /* transform: translate(0, -2px); */
+}
+.parent > .content > .links a img {
+  height: 90%;
+}
+.parent > .content > .links a .github {
+  display: block;
+}
+.parent > .content > .links a .live {
+  display: block;
+}
+.parent > .content > .links a .githubHover {
+  display: none;
+}
+.parent > .content > .links a .liveHover {
+  display: none;
+}
+.parent > .content > .links a:hover .github {
+  display: none;
+}
+.parent > .content > .links a:hover .githubHover {
+  display: block;
+}
+.parent > .content > .links a:hover .live {
+  display: none;
+}
+.parent > .content > .links a:hover .liveHover {
+  display: block;
+}
+
+.parent:hover > .content > .info > .heading {
+  /* color: #ed0938; */
+  transition: all;
+  transition-duration: 0.5s;
+}
+.parent:hover {
+  background: #f4f6f8;
+}

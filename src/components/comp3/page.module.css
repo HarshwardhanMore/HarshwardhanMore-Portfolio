@@ -1,0 +1,95 @@
+.parent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ecf0f3;
+}
+
+.parent .content {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.parent .content .part1 {
+  width: 35%;
+  height: 90%;
+  /* border: 2px solid red; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #ecf0f3;
+
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.132);
+  border-radius: 15px;
+  padding-top: 0px;
+}
+.parent .content .part1 .img {
+  width: 88%;
+  height: 90%;
+  border-radius: 10px;
+}
+.parent .content .part2 {
+  width: 55%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent .content .part2 .content {
+  height: 90%;
+  width: 100%;
+  padding: 0px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.parent .content .part2 .content .tagline {
+  color: #ed0938;
+}
+
+.parent .content .part2 .content .heading {
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(50, 50, 50);
+}
+
+.parent .content .part2 .content .desc {
+}
+
+.parent .content .part2 .content .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #ecf0f3;
+  cursor: pointer;
+
+  padding: 15px 25px;
+  /* background-color: red; */
+  color: #ed0938;
+  box-shadow: 0 0 25px rgba(0, 0, 5, 0.15);
+  border-radius: 5px;
+}
+
+.parent .content .part2 .content .btn:hover {
+  /* background: #ed0938;
+  color: #ecf0f3; */
+
+  box-shadow: 0 0 25px rgba(0, 0, 5, 0.25);
+  transition: all;
+  transition-duration: 0.3s;
+  transform: translate(0, -5px);
+}
