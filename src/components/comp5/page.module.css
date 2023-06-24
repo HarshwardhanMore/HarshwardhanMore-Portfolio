@@ -1,0 +1,54 @@
+.parent {
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ecf0f3;
+}
+.parent > .heading {
+}
+
+.parent .heading {
+  width: 85%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.parent .heading .tagline {
+  text-align: center;
+  color: #ed0938;
+}
+.parent .heading .headline {
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(50, 50, 50);
+  text-align: center;
+}
+
+.parent > .content {
+  width: 85%;
+  height: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.parent > .content > .part1 {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent > .content > .part2 {
+  width: 65%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

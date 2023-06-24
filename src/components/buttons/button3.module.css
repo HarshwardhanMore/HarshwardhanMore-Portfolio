@@ -1,0 +1,27 @@
+.main {
+  /* padding: ; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* 
+  background: #ecf0f3; */
+  cursor: pointer;
+  width: 95%;
+  padding: 15px;
+  /* background-color: red; */
+  color: #ed0938;
+  /* background: forestgreen; */
+
+  background: linear-gradient(-45deg, var(--col1), var(--col2));
+  box-shadow: 0 0 25px rgba(0, 0, 5, 0.15);
+  border-radius: 7px;
+}
+.main:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 5, 0.25);
+  transition: all;
+  transition-duration: 0.3s;
+  transform: translate(0, -5px);
+  background: #ed0938;
+  color: #feffff;
+}

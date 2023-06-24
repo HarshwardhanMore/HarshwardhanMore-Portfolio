@@ -9,7 +9,7 @@ const Comp1 = () => {
       <div className={styles.content}>
         <div className={styles.name}>Harshwardhan More</div>
         <div className={styles.quote}>
-          Front-End Designer | Full-Stack Developer
+          Front-End Designer & Full-Stack Developer
         </div>
       </div>
     </div>

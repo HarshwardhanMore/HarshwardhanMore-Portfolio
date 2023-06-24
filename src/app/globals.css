@@ -6,4 +6,8 @@
   padding: 0px;
   margin: 0px;
   overflow-x: hidden;
+
+  --col1: #feffff;
+  --col2: #e2e8ec;
+  --col3: #ed0938;
 }

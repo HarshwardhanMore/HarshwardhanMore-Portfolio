@@ -1,0 +1,23 @@
+.parent {
+  width: 95%;
+  /* background: red; */
+  /* padding: 10px 0px; */
+}
+.parent > * {
+  padding: 10px 0px;
+}
+.parent > .title {
+  width: 100%;
+}
+.parent > .input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 7px;
+  border: 2px solid #d1d5d8;
+}
+.parent > .input:focus {
+  border-color: #ed0938;
+}
+.parent > .input:focus {
+  outline: none;
+}

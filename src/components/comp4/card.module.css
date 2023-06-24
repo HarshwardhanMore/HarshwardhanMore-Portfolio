@@ -75,10 +75,16 @@
 .parent > .content > .links a .live {
   display: block;
 }
+.parent > .content > .links a .video {
+  display: block;
+}
 .parent > .content > .links a .githubHover {
   display: none;
 }
 .parent > .content > .links a .liveHover {
+  display: none;
+}
+.parent > .content > .links a .videoHover {
   display: none;
 }
 .parent > .content > .links a:hover .github {
@@ -91,6 +97,12 @@
   display: none;
 }
 .parent > .content > .links a:hover .liveHover {
+  display: block;
+}
+.parent > .content > .links a:hover .video {
+  display: none;
+}
+.parent > .content > .links a:hover .videoHover {
   display: block;
 }
 

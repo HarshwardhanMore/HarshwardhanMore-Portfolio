@@ -1,0 +1,32 @@
+.parent {
+  width: 100vw;
+  height: 20vh;
+  background: #ecf0f3;
+  color: #ed0938;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.parent .main {
+  /* padding: ; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background: #ecf0f3;
+  cursor: pointer;
+
+  padding: 15px 25px;
+  /* background-color: red; */
+  color: #ed0938;
+  box-shadow: 0 0 25px rgba(0, 0, 5, 0.15);
+  border-radius: 5px;
+}
+.parent .main:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 5, 0.25);
+  transition: all;
+  transition-duration: 0.3s;
+  transform: translate(0, -5px);
+}
