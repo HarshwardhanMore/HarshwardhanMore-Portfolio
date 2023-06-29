@@ -25,6 +25,15 @@ const skillData = [
     videoLink:
       "https://drive.google.com/file/d/1ufja4RM-i7ZVmqilaLsnXrNgfSz_mAYH/view?usp=sharing",
   },
+  {
+    src: "audiobook.jpg",
+    heading: "Get Set Go - Search Engine",
+    desc: "Developed a real-time search engine with rapid and well-liked outcomes for every inquiry, allowing you to search the internet for information using any keywords or phrases.",
+    githubLink: "https://github.com/HarshwardhanMore/searchengine1",
+    liveLink: "#",
+    videoLink:
+      "https://drive.google.com/file/d/1nE1m2rEIbc_5SocyUHVWsuRVe_x5ifXA/view",
+  },
 ];
 
 export default skillData;

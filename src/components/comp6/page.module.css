@@ -1,15 +1,6 @@
-.mainParent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  background-color: #ecf0f3;
-}
-
 .parent {
   width: 100vw;
-  height: 180vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,7 +9,7 @@
   background-color: #ecf0f3;
 }
 .parent .heading {
-  height: 15%;
+  height: 30%;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -38,14 +29,20 @@
 
 .parent .content {
   width: 90%;
-  height: 85%;
+  height: 70%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   justify-content: center;
   align-items: center;
-  /* align-content: center; */
+}
+.parent .content > * {
+  width: 90%;
+  height: 100%;
+  /* border: 2px solid red; */
 
-  /* column-gap: 3%; */
-  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
